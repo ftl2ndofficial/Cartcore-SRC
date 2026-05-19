@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "thetruetrident.cartcore.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BowItemMixin",
+      "cartAssister"
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

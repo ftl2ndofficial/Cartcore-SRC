@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "cartcore",
+  "version": "1.0.3",
+  "name": "cartcore",
+  "description": "A cart utility modification developed by thetruetrident, allowing for undetectable performance enhancements.",
+  "authors": [
+    "thetruetrident"
+  ],
+  "contact": {
+    "homepage": "https://www.patreon.com/@thetruetrident"
+  },
+  "license": "Copyright © 2026 thetruetrident. All Rights Reserved.",
+  "icon": "assets/cartcore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "thetruetrident.cartcore.Cartcore"
+    ],
+    "client": [
+      "thetruetrident.cartcore.CartcoreClient",
+      "thetruetrident.cartcore.cartSmoothing",
+      "thetruetrident.cartcore.crossCartin",
+      "thetruetrident.cartcore.autoWeb"
+    ]
+  },
+  "mixins": [
+    "cartcore.mixins.json",
+    {
+      "config": "cartcore.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.18.4",
+    "minecraft": "~1.21.11",
+    "java": "\u003e\u003d21",
+    "fabric-api": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/fzzy_config-0.7.3+1.21.11-pre3.jar"
+    }
+  ]
+}

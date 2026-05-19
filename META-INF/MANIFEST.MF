@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Fabric-Jar-Type: classes
+Fabric-Loom-Client-Only-Entries: cartcore.client.mixins.json;thetruetrid
+ ent/cartcore/CartcoreClient.class;thetruetrident/cartcore/CartcoreCore.
+ class;thetruetrident/cartcore/autoWeb.class;thetruetrident/cartcore/car
+ tAssistMixin.class;thetruetrident/cartcore/cartConfig.class;thetruetrid
+ ent/cartcore/cartSmoothing.class;thetruetrident/cartcore/crossCartin.cl
+ ass;thetruetrident/cartcore/keyBinding.class;thetruetrident/cartcore/mi
+ xin/client/BowItemMixin.class;thetruetrident/cartcore/mixin/client/cart
+ Assister.class;thetruetrident/cartcore/worldMsg.class
+Fabric-Loom-Mixin-Remap-Type: static
+Fabric-Loom-Split-Environment: true
+Fabric-Gradle-Version: 9.3.0
+Fabric-Loom-Version: 1.15.4
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 1.21.11
+Fabric-Tiny-Remapper-Version: 0.12.3
+Fabric-Loader-Version: 0.18.4
+Fabric-Mixin-Version: 0.17.0+mixin.0.8.7
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+
