@@ -12,7 +12,7 @@ A cart utility modification developed by thetruetrident, focused on movement and
 ## Credits
 
 - Original author: thetruetrident
-- JAR leak: Hi Tech! (https://dsc.gg/hitech)
+- JAR leak: Hi Tech! (https://discord.gg/hitech)
 - Remap & decompile: FTL 2nd
 
 ## Features
